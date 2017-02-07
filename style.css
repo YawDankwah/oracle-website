@@ -1,0 +1,125 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial Serif;
+	/*max-width: 1200px;
+	margin: 0 auto;*/
+}
+#main-img {
+	margin-left: 150px;
+	margin-top: 0;
+}
+.nav {
+	width: 100%;
+	background-color: #333333;
+	padding: 5px 0 5px 0;
+	margin: 0;
+	list-style: none;
+	text-align: right;
+}
+.nav li {
+	display: inline-block;
+	padding-right: 80px;
+	padding-left: 40px;
+	margin-right: 80px;
+}
+.nav li a {
+	text-decoration: none !important;
+	color: #ffffff;
+
+}
+.nav li a:hover {
+	color: #898989
+} 
+h2 {
+	color: #ffffff;
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding-left: 50px;
+}
+.wrapper {
+	margin: 0 auto;
+	width: 1300px;
+	margin-left: 180px;
+	/*background-color: rgba(250,0,0,0.5);*/
+	/*background-image: url(../images/keyboard.jpg)*/
+}
+p {
+	width: 300px;
+	/*max-height: 100px;*/
+	font-family: sans-serif;
+	color: #ffffff;
+	padding-left: 50px;
+	padding-bottom: 6px;
+	text-align: left;
+}
+.column {
+
+	float: left;
+	width: 300px;
+	padding-bottom: 50px;
+	/* background-image: url(../images/keyboard.jpg) */
+	background-color: rgba(0,0,0,0.9)
+}
+figcaption {
+	color: #ffffff;
+	text-align: center;
+}
+figcaption a {
+	text-decoration: none;
+}
+figcaption a: hover {
+	color: #ffffff;
+}
+.figedit {
+	margin-right: 20px;
+}
+.subcolumn {
+	float: left;
+	width: 600px
+	
+	
+}
+.imagesize {
+	margin-left: 150px;
+	margin-top: 80px;
+}
+.figcap {
+	color: #000;
+	text-align: left;
+	font-family: sans-serif;
+}
+.secp {
+	font-family: sans-serif;
+	color: #000;
+	text-align: center;
+	width: 400px;
+	border: 6px;
+	border-color: rgba(0,0,0,0.1);
+
+	
+}
+.create {
+	margin-left: 40px;
+	margin-top: 170px;
+	margin-right: 100px;
+	/*padding-right: 30px;*/
+	background-color: rgba(0,0,0,0.1);
+
+}
+.footer {
+	width: 100%;
+	background-color: #333333;
+	/*padding: 5px 0 5px 0;*/
+	margin-top: 1000px;
+	list-style: none;
+	text-align: center;
+	color: #ffffff;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+}
